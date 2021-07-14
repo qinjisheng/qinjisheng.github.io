@@ -1,4 +1,4 @@
-This is my personal academic resume.
+This is my CV.
 
 My blog is [here](https://www.ieeefellow.com).
 
