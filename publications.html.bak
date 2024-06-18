@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Jisheng Qin</title>
+<title>Jisheng Qin - Openings</title>
 </head>
 <body>
 
@@ -32,57 +32,71 @@
 </td>
 <!--侧边栏-->
 
+
 <td id="layout-content">
 <div id="toptitle">
-<h1>Jisheng Qin</h1>
+<h1>Jisheng Qin - Publications</h1>
 </div>
 
-<!--简介部分-->
-<table class="imgtable"><tr><td>
-<a href="images/JishengQin.JPG"><img src="images/JishengQin.JPG" alt="Image of Jisheng" width="180px" height="250px" /></a>&nbsp;</td>
-<td align="left"><p>Ph.D<br /> <br /> 
-Graph Neural Networks, Action Recognition <br /> <br /> 
-<a href="https://csci.chzu.edu.cn/">Institute of Computer Engineering and Information Technology</a> <br />
-<a href="https://www.chzu.edu.cn/">Chuzhou University</a> <br /></p>
-<p>Email: jisheng (dot) qin (dot) vip (at) gmail (dot) com<br />
-<p>[<a href="https://scholar.google.com/citations?user=N-G2LgcAAAAJ&hl=en" target="_blank">Google Scholar</a>]
-&nbsp;&nbsp; [<a href="https://github.com/qinjisheng" target="_blank">GitHub</a>]
-<br />
-</td></tr></table>
-<!--简介部分-->
+<!--预印本-->
+<h2>Preprints</h2>
+<ol>
+<li>
+	<p><a href="xxxxxx">XXXXXXXXXXXXXXXXX</a>.</font>
+	<br />
+	XXXXXXXXXXXXXXXX, and <b>Jisheng Qin</b>. <br />
+	</p>
+</li>
+</ol>
+<!--预印本-->
 
-<br />
+<!--2024-->
+<h2>2024</h2>
+<ol>
+<li><p><a href="https://">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</a>. <br />
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX, and <b>Jisheng Qin</b>. <br />
+In Proceedings of the XXXXXXXXXXXXXX. <br />
+[Code <a href="https://github.com/">repo</a>]</p>
+</li>
+</ol>
+<!--2024-->
 
-<!--自传部分-->
-<h2>Biography</h2>
-<p>I received my Ph.D degree from <a href="https://www.hhu.edu.cn/" target="_blank">Hohai University</a> in 2023. I am a lecturer in Institute of Computer Engineering and Information Technology</a>, <a href="https://www.chzu.edu.cn/" target="_blank">Chuzou University</a>.</p>
-<!--自传部分-->
+<!--2023-->
+<h2>2023 and before</h2>
+<ol>
+<li><p>Context-sensitive graph representation learning.<br />
+<b>Jisheng Qin</b>, Xiaoqin Zeng, and Yang Zou.<br />
+International Journal of Machine Learning and Cybernetics. 2023, 14(6): 2193-2203.<br />
+</li>
 
-<!--研究点-->
-<h2>Research Interests</h2> 
-<p>Graph Neural Networks, Action Recognition</p>
-<!--研究点-->
+<li><p>Structural reinforcement-based graph convolutional networks.</a> <br />
+<b>Jisheng Qin</b>, Qianqian Wang, and Tao Tao.<br />
+Connection Science. 2022, 34(1): 2807-2821.<br />
+</li>
 
-<!--新闻部分-->
-<h2>Recent News (before 2024 can be seen <a href="news.html">here</a>)</h2>
-<div class="infoblock">
-<div class="blockcontent">
-<h3>2024</h3>
-<ul>
-<li><p>4/2024: A grant from Anhui Engineering Research Center for Intelligent Applications and Security of Industrial Internet. <b>code:IASII24-06</b></p></li>
-</ul>
-</div></div>
-<!--新闻部分-->
+<li><p>Multi-Semantic Alignment Graph Convolutional Network.</a> <br />
+<b>Jisheng Qin</b>, Xiaoqin Zeng, and Yang Zou.<br />
+Connection Science. 2022, 34(1): 2313-2331.<br />
+</li>
+
+<li><p>Feature recommendation strategy for graph convolutional network.</a> <br />
+<b>Jisheng Qin</b>, Xiaoqin Zeng, and Yang Zou.<br />
+Connection Science. 2022, 34(1): 1697-1718.<br />
+</li>
+
+<li><p>E-GCN: graph convolution with estimated labels.</a> <br />
+<b>Jisheng Qin</b>, Shengli Wu, and E Tang.<br />
+Applied Intelligence. 2021, 51: 5007-5015.<br />
+</li>
+</ol>
+<!--2023-->
 
 <!--页脚部分-->
 <div id="footer">
 <div id="footer-text">
-Page generated 2024-04-03 00:33:33 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2024-02-03 00:33:37 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
-<!--页脚部分-->
-
-
 </td>
 </tr>
 </table>
