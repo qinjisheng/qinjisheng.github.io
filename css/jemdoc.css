@@ -217,7 +217,9 @@ ol {
     list-style-type: decimal;
 }
 
+/* 修改行间距. */
 li p, dd p {
+	margin-top: 0.7em; 
     margin-bottom: 0.3em;
 }
 
