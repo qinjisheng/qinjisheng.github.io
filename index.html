@@ -67,6 +67,28 @@
 </td></tr></table>
 
 
+<h3>Foundation Model for Skeletal Action Recognition</h3>
+<table class="imgtable"><tr>
+<td align="left">
+<p>The goal is to establish a large-scale foundational model for dynamic skeletal action recognition aimed at advancing intelligent health monitoring and behavior analysis in imaginative elderly care scenarios. This model enables efficient skeletal action recognition across various downstream tasks, such as fall detection, daily activity monitoring, and motion rehabilitation, thereby promoting personalized health management for older adults.</p>
+
+<p>Starting from real-world elderly care environments, we automatically analyze skeletal motion patterns in seniors' daily activities, identifying everyday actions (e.g., walking, standing, sitting, and falling) while monitoring their health in real time. Inspired by biomechanics and graph neural network (GNN) research, we initially developed a skeletal keypoint data model to represent elderly behavior. Subsequently, we employed self-supervised learning methods to capture the spatiotemporal dependencies among joints and key points in skeletal motion sequences, enhancing the model's transferability across different elderly populations.</p>
+
+<p>To construct this large-scale foundational model for dynamic skeletal action recognition, we first pre-trained the model on extensive skeletal datasets that encompass a wide range of activities performed by older adults in various scenarios (e.g., gait patterns, exercises, and falls). Leveraging GNNs to capture spatiotemporal relationships among skeletal key points, we developed a foundational model with 500 million parameters. This model efficiently identifies skeletal actions across diverse activity patterns and provides robust support for downstream tasks. We then integrated additional dynamic skeletal data, such as movement patterns in various environments and personalized behavioral data of older adults, into the pretraining corpus, expanding the model to 1 billion parameters. This enhanced model supports a broader range of downstream tasks, including real-time fall detection, daily activity classification, and rehabilitation progress tracking, while improving performance across different environments and elderly groups.</p>
+
+<p>To enhance the model's cross-scenario adaptability, we designed a unified alignment framework called BoneAlign, enabling the model to rapidly adapt to new elderly care settings and the diverse needs of older adults. With minimal labeled data for fine-tuning, BoneNet-2 efficiently addresses task requirements in varying living environments and health states. It monitors seniors' movements in real time, detects abnormal activities, and provides corresponding health recommendations. Moreover, to further improve generalization, we expanded skeletal data using self-supervised learning, enabling the model to identify unseen action patterns in an unsupervised manner. This approach not only increases the model's robustness but also enhances its applicability to rare diseases, such as Parkinson's disease and Alzheimer's disease.</p>
+
+<p>During the development of this foundational model, we identified the scarcity of skeletal action data, particularly dynamic skeletal data for older adults. To address this challenge, we explored diffusion-based skeletal action generation techniques (ActionSynth). Using this technology, we generated diverse and realistic dynamic skeletal action data, reducing dependence on actual datasets. This approach provided a more varied dataset for training and ensured the model's adaptability across different scenarios. Additionally, we innovatively used synthetic data to simulate diverse elderly behavior scenarios, helping the model handle complex situations encountered in real-world elderly care environments. By generating unlimited skeletal motion sequences, we significantly enhanced the model's generalization capacity, enabling it to adapt efficiently to changes in practical applications.</p>
+
+<p>This large-scale foundational model for dynamic skeletal action recognition will play a critical role in health monitoring, behavior analysis, and personalized services within competent elderly care. In the future, we aim to expand the model's application scope by exploring its potential in medical rehabilitation, elderly care, and smart home systems. Additionally, we plan to integrate this model with other innovative elderly care systems, such as intelligent home devices and health management platforms, through methods like federated learning to achieve comprehensive health management and personalized services.</p>
+
+<p>Papers:</p>
+<p>Codes:</p>
+<p>Dataset:</p>
+
+<td align="right">
+<a href="images/SAR.jpg"><img src="images/SAR.jpg" alt="Image of SAR" width="600px"/></a>
+</td></tr></table>
 
 
 
