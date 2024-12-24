@@ -50,67 +50,38 @@
 <h2 id="Research">Research Interests</h2>
 
 <h3>Foundation Model for Behavior Tree</h3>
-
 <table class="imgtable"><tr>
 <td align="left">
-<p>The goal is to establish a universal behavior tree model that enhances the performance of various downstream tasks in robotics.</p>
-
-<p>Starting with health monitoring tasks in real-world elderly care scenarios, we automatically analyze the execution patterns of service robots' behavior trees, such as response strategies to emergencies in health monitoring tasks. Inspired by research on service robots, we initially modeled the dependency relationships and logical connections between task nodes in the behavior tree for specific scenarios. Subsequently, we adopted self-supervised learning methods to capture the universal spatiotemporal correlations of behavior trees across different tasks and scenarios, thereby facilitating the transferability of task logic in various elderly care environments. To establish a foundational model, we first pre-trained a behavior tree model with 500 million parameters based on large-scale elderly care task behavior data. We then incorporated more complex behavior data, such as multi-robot collaboration and emergency task scheduling, into the pre-training corpus, building a foundational model with one billion parameters. 
-</p> </td>
-
+<p>The goal is to create a universal behavior tree model that enhances the performance of various downstream tasks in robotics. Starting with health monitoring tasks in real-world elderly care scenarios, we analyze the execution patterns of service robots' behavior trees. By modeling task dependencies and logical connections, we employ self-supervised learning methods to capture spatiotemporal correlations, facilitating task logic transferability across different care environments.</p>
+<p>We pre-trained a foundational behavior tree model with 500 million parameters using large-scale elderly care task data. Incorporating more complex behavior data, such as multi-robot collaboration and emergency scheduling, we expanded the model to 1 billion parameters. The enhanced model supports dynamic task allocation, emotional companionship, and rapid adaptation to diverse scenarios through a unified framework called CareAlign. To address data scarcity, we developed BehaviorSynth, a diffusion-based model for generating synthetic behavior tree data, enabling robust generalization and scalability.</p>
+</td>
 <td align="right">
 <a href="images/BT.jpg"><img src="images/BT.jpg" alt="Image of BT" width="300px"/></a>
 </td></tr>
 </table>
 
-<p>This enabled the model to be applied to a broader range of downstream tasks, such as dynamic task allocation and personalized emotional companionship. Leveraging the strong generalization capabilities of CareTree-2, we proposed a unified alignment framework (CareAlign) to allow the model to quickly adapt to downstream tasks that involve dynamic scenarios and user demands. In the process of constructing the universal behavior tree foundational model, we realized the need for a comprehensive dataset covering a wide range of tasks and environments. Faced with the issue of scarce real-world elderly care scenario behavior data, we delved into diffusion-based behavior data generation models to simulate behavior trees in complex task scenarios (BehaviorSynth). Furthermore, we innovatively synthesized infinite behavior sequences, avoiding over-reliance on actual data.</p>
-
-<p>Papers:</p>
-<p>Codes:</p>
-<p>Dataset:</p>
-
 <h3>Foundation Model for Skeletal Action Recognition</h3>
-
 <table class="imgtable"><tr>
 <td align="left">
-<p>The goal is to establish a large-scale foundational model for dynamic skeletal action recognition aimed at advancing intelligent health monitoring and behavior analysis in imaginative elderly care scenarios. This model enables efficient skeletal action recognition across various downstream tasks, such as fall detection, daily activity monitoring, and motion rehabilitation, thereby promoting personalized health management for older adults.</p>
-
-<p>Starting from real-world elderly care environments, we automatically analyze skeletal motion patterns in seniors' daily activities, identifying everyday actions (e.g., walking, standing, sitting, and falling) while monitoring their health in real time. Inspired by biomechanics and graph neural network (GNN) research, we initially developed a skeletal keypoint data model to represent elderly behavior. Subsequently, we employed self-supervised learning methods to capture the spatiotemporal dependencies among joints and key points in skeletal motion sequences, enhancing the model's transferability across different elderly populations.
-To construct this large-scale foundational model for dynamic skeletal action recognition, we first pre-trained the model on extensive skeletal datasets that encompass a wide range of activities performed by older adults in various scenarios (e.g., gait patterns, exercises, and falls). Leveraging GNNs to capture spatiotemporal relationships among skeletal key points, we developed a foundational model with 500 million parameters. This model efficiently identifies skeletal actions across diverse activity patterns and provides robust support for downstream tasks. We then integrated additional dynamic skeletal data, such as movement patterns in various environments and personalized behavioral data of older adults, into the pretraining corpus, expanding the model to 1 billion parameters. 
-</p> </td>
-
+<p>We aim to establish a foundational model for dynamic skeletal action recognition, enhancing intelligent health monitoring and behavior analysis in elderly care. This model enables tasks such as fall detection, daily activity monitoring, and motion rehabilitation, promoting personalized health management for older adults. Starting with real-world scenarios, we analyze skeletal motion patterns, identifying actions while monitoring health in real time.</p>
+<p>Utilizing biomechanics and graph neural networks, we built a skeletal keypoint data model and applied self-supervised learning to capture spatiotemporal dependencies. Pretrained on extensive skeletal datasets, our model, with up to 1 billion parameters, adapts to various downstream tasks and environments. The BoneAlign framework enhances cross-scenario adaptability with minimal labeled data, supporting anomaly detection and health recommendations. To mitigate data scarcity, we developed ActionSynth to generate diverse dynamic skeletal datasets, ensuring robustness and scalability in real-world applications.</p>
+</td>
 <td align="right">
 <a href="images/SAR.jpg"><img src="images/SAR.jpg" alt="Image of SAR" width="300px"/></a>
 </td></tr>
 </table>
 
-<p>This enhanced model supports a broader range of downstream tasks, including real-time fall detection, daily activity classification, and rehabilitation progress tracking, while improving performance across different environments and elderly groups.
-To enhance the model's cross-scenario adaptability, we designed a unified alignment framework called BoneAlign, enabling the model to rapidly adapt to new elderly care settings and the diverse needs of older adults. With minimal labeled data for fine-tuning, BoneNet-2 efficiently addresses task requirements in varying living environments and health states. It monitors seniors' movements in real time, detects abnormal activities, and provides corresponding health recommendations. Moreover, to further improve generalization, we expanded skeletal data using self-supervised learning, enabling the model to identify unseen action patterns in an unsupervised manner. This approach not only increases the model's robustness but also enhances its applicability to rare diseases, such as Parkinson's disease and Alzheimer's disease.
-During the development of this foundational model, we identified the scarcity of skeletal action data, particularly dynamic skeletal data for older adults. To address this challenge, we explored diffusion-based skeletal action generation techniques (ActionSynth). Using this technology, we generated diverse and realistic dynamic skeletal action data, reducing dependence on actual datasets. This approach provided a more varied dataset for training and ensured the model's adaptability across different scenarios. Additionally, we innovatively used synthetic data to simulate diverse elderly behavior scenarios, helping the model handle complex situations encountered in real-world elderly care environments. By generating unlimited skeletal motion sequences, we significantly enhanced the model's generalization capacity, enabling it to adapt efficiently to changes in practical applications.
-This large-scale foundational model for dynamic skeletal action recognition will play a critical role in health monitoring, behavior analysis, and personalized services within competent elderly care. In the future, we aim to expand the model's application scope by exploring its potential in medical rehabilitation, elderly care, and smart home systems. Additionally, we plan to integrate this model with other innovative elderly care systems, such as intelligent home devices and health management platforms, through methods like federated learning to achieve comprehensive health management and personalized services.</p>
-
-<p>Papers:</p>
-<p>Codes:</p>
-<p>Dataset:</p>
-
-
 <h3>Foundation Model for Graphs</h3>
-
 <table class="imgtable"><tr>
 <td align="left">
-<p>The goal is to pre-train a general-purpose graph foundation model using extensive graph data. After appropriate fine-tuning, this model aims to achieve satisfactory performance across a variety of downstream tasks, showcasing its broad application potential while addressing numerous challenges.</p>
-<p>To achieve this objective, we designed a graph foundation model with enhanced representational capabilities. We conducted an in-depth study of the critical role of pretraining strategies in the construction of graph foundation models. From a unified perspective, we analyzed existing graph self-supervised learning methods. During the adaptation of the pre-trained graph foundation model to downstream tasks, we explored the intrinsic factors that determine the model's ultimate performance and proposed various effective and parameter-efficient adaptation techniques.</p>
-<p>Additionally, we released a large-scale dynamic graph action recognition pretraining dataset, DGraph, to address the scarcity of graph datasets in this domain. This contribution provides a solid foundation for advancing research and development in graph-based models and their applications.</p>
-<br/>
-<p>Papers:</p>
-<p>Codes:</p>
-<p>Dataset:</p>
+<p>We aim to pretrain a general-purpose graph foundation model using extensive graph data. This model delivers robust performance across a variety of downstream tasks after fine-tuning, addressing challenges and demonstrating broad application potential. Our graph foundation model features enhanced representational capabilities, leveraging advanced pretraining strategies and self-supervised learning methods to capture graph structures effectively.</p>
+<p>During adaptation to downstream tasks, we explored intrinsic factors affecting model performance and designed parameter-efficient techniques. To address dataset scarcity, we introduced DGraph, a large-scale dynamic graph action recognition dataset. This resource supports the development of robust graph-based models, advancing applications in areas like link prediction, recommendation systems, and dynamic network analysis.</p>
 </td>
-
 <td align="right">
 <a href="images/GFM.jpg"><img src="images/GFM.jpg" alt="Image of GFM" width="300px"/></a>
 </td></tr>
 </table>
+
 
 <!--研究点-->
 
