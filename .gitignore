@@ -1,8 +1,0 @@
-# 部署优化：忽略不必要的文件
-*.log
-*.tmp
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*~
